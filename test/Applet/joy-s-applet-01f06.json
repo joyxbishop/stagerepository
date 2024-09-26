@@ -22,17 +22,6 @@
       "col": 2,
       "sizex": 4,
       "sizey": 0
-    },
-    {
-      "fieldId": "abc5w",
-      "helpTextType": "None",
-      "helpText": " ",
-      "layoutType": "Field",
-      "id": "66f5a40843a60d7453815817",
-      "row": 1,
-      "col": 4,
-      "sizex": 4,
-      "sizey": 0
     }
   ],
   "fields": [
@@ -67,24 +56,6 @@
       "required": false,
       "readOnly": false,
       "supportsMultipleOutputMappings": false
-    },
-    {
-      "prefix": "",
-      "suffix": "",
-      "placeholder": "",
-      "inputType": "Text",
-      "lengthType": "None",
-      "unique": false,
-      "writeOnce": false,
-      "visualize": false,
-      "visualizeMode": 0,
-      "id": "abc5w",
-      "name": "Text (2)",
-      "key": "text-2",
-      "fieldType": "Text",
-      "required": false,
-      "readOnly": false,
-      "supportsMultipleOutputMappings": false
     }
   ],
   "workflow": {
@@ -97,9 +68,9 @@
     "disabled": false
   },
   "createdDate": "2024-09-26T18:11:13.154Z",
-  "modifiedDate": "2024-09-26T18:12:25.654Z",
+  "modifiedDate": "2024-09-26T18:11:19.221Z",
   "uid": "joy-s-applet-01f06",
-  "version": 3,
+  "version": 2,
   "id": "aZg3LGZB4HBXk8cxB",
   "name": "Joy\u0027s Applet",
   "disabled": false
