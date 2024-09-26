@@ -1,0 +1,83 @@
+{
+  "acronym": "JA",
+  "trackingFieldId": "66f594477974d3c8e9fd8dd4",
+  "layout": [
+    {
+      "fieldId": "ad5dh",
+      "helpTextType": "None",
+      "helpText": " ",
+      "layoutType": "Field",
+      "id": "66f5944b04d4637814eb5e55",
+      "row": 1,
+      "col": 1,
+      "sizex": 4,
+      "sizey": 0
+    },
+    {
+      "fieldId": "a5mga",
+      "helpTextType": "None",
+      "helpText": " ",
+      "layoutType": "Field",
+      "id": "66f5944cc2a03eb42f11765f",
+      "row": 1,
+      "col": 2,
+      "sizex": 4,
+      "sizey": 0
+    }
+  ],
+  "fields": [
+    {
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "",
+      "inputType": "Text",
+      "lengthType": "None",
+      "unique": false,
+      "writeOnce": false,
+      "visualize": false,
+      "visualizeMode": 0,
+      "id": "ad5dh",
+      "name": "Text",
+      "key": "text",
+      "fieldType": "Text",
+      "required": false,
+      "readOnly": false,
+      "supportsMultipleOutputMappings": false
+    },
+    {
+      "step": 1,
+      "unique": false,
+      "prefix": "",
+      "suffix": "",
+      "format": "None",
+      "id": "a5mga",
+      "name": "Numeric",
+      "key": "numeric",
+      "fieldType": "Numeric",
+      "required": false,
+      "readOnly": false,
+      "supportsMultipleOutputMappings": false
+    },
+    {
+      "prefix": "JA-",
+      "id": "66f594477974d3c8e9fd8dd4",
+      "name": "Tracking Id",
+      "key": "tracking-id",
+      "fieldType": "Tracking",
+      "readOnly": true,
+      "supportsMultipleOutputMappings": false
+    }
+  ],
+  "maxTrackingId": 0,
+  "workspaces": [],
+  "createWorkspace": false,
+  "createdDate": "2024-09-26T17:05:11.151Z",
+  "modifiedDate": "2024-09-26T17:05:18.598Z",
+  "timeTrackingEnabled": false,
+  "selectionFields": {},
+  "uid": "joy-s-application--5638e",
+  "version": 2,
+  "id": "aE4Y0AxcAlJ1oQ8VD",
+  "name": "Joy\u0027s Application ",
+  "disabled": false
+}

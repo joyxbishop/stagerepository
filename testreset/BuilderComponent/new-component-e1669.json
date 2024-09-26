@@ -1,0 +1,14 @@
+{
+  "createdDate": "2024-09-26T11:21:22.588Z",
+  "modifiedDate": "2024-09-26T11:21:22.588Z",
+  "playbookId": "66f543b2857d9e6f65f4de59",
+  "isMarketplace": false,
+  "needUpdate": false,
+  "description": "This VIC is designed to help a user to send a message to a Slack channel.",
+  "referencedComponents": [],
+  "uid": "new-component-e1669",
+  "version": 16,
+  "id": "aDUIelkPA4jbhCA6e",
+  "name": "Slack Direct Message via Email (VIC)",
+  "disabled": false
+}

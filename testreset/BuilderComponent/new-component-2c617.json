@@ -1,0 +1,17 @@
+{
+  "createdDate": "2024-09-26T11:24:50.511Z",
+  "modifiedDate": "2024-09-26T11:24:50.511Z",
+  "playbookId": "66f54481a6b1e9f3a9186876",
+  "isMarketplace": false,
+  "needUpdate": false,
+  "description": "This component will get the incident alerts and process with TEDS for different use cases. ",
+  "referencedComponents": [
+    "aS9A5tmGDMK9dzNgm",
+    "aRqDSHHUWVWexAD7W"
+  ],
+  "uid": "new-component-2c617",
+  "version": 66,
+  "id": "aRWGofnipej9FM2ZG",
+  "name": "Darktrace Get Incidents",
+  "disabled": false
+}
