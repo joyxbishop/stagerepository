@@ -1,0 +1,14 @@
+{
+  "createdDate": "2024-09-27T20:32:47.471Z",
+  "modifiedDate": "2024-09-27T20:32:47.471Z",
+  "playbookId": "66f7166e6a773d1fddc68ae3",
+  "isMarketplace": false,
+  "needUpdate": false,
+  "description": "Solution: Detection Engineering\n\nTriggered when \u0027Req Review\u0027 toggle is turned off. It\u0027s responsible for clearing all fields (includes hidden fields) within the applet.",
+  "referencedComponents": [],
+  "uid": "new-component-b542d",
+  "version": 26,
+  "id": "aX_9QIxpUeCbCOxuY",
+  "name": "DE - Clear Detection Feedback Fields",
+  "disabled": false
+}

@@ -1,0 +1,19 @@
+{
+  "playbookIds": [
+    "66f7166e6a773d1fddc68adf",
+    "66f7166e6a773d1fddc68ae1"
+  ],
+  "createdDate": "2024-09-27T20:32:47.45Z",
+  "modifiedDate": "2024-09-27T20:32:47.45Z",
+  "isMarketplace": false,
+  "referencedComponents": [
+    "aYd2iWwMtLobb1I13",
+    "aYJ63vRbBV05uD7So",
+    "aX_9QIxpUeCbCOxuY"
+  ],
+  "uid": "new-playbook-108cc",
+  "version": 18,
+  "id": "aRzAAhg8GPz1zymGj",
+  "name": "Detection Engineering",
+  "disabled": true
+}
