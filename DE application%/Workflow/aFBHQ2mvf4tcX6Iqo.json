@@ -1,0 +1,217 @@
+{
+  "applicationId": "aZZteMOgyvD6gSnhp",
+  "stages": [
+    {
+      "id": "656df5bdd9c55b72ca13b65c",
+      "name": "Default Action(s)",
+      "disabled": false,
+      "parentId": "aSI6pJ9uyGmXgmwpz",
+      "conditionType": "DefaultActions",
+      "evalType": "And",
+      "conditions": [],
+      "actions": [
+        {
+          "layoutActions": {
+            "656de6241ee8eeb9e9621f4a": "Hide",
+            "656de630ddcc346bd1e99a05": "Hide",
+            "656f332dffc64ace4e32ac3f": "Hide",
+            "66b6b1f24c9083d031289ba6": "Hide",
+            "656de558aa924935c240c72c": "Show",
+            "66c8b25b828a5e02c6ab6ee2": "Hide",
+            "66cd9399d3f9f093546fb6bc": "Hide"
+          },
+          "actionType": "ShowHide",
+          "parentId": "656df5bdd9c55b72ca13b65c",
+          "id": "656df5bf3f968bdfbac622bb",
+          "name": "Hide Default Section",
+          "disabled": false
+        }
+      ],
+      "repeats": [],
+      "stages": []
+    },
+    {
+      "id": "656df5d81093df553ee1e66d",
+      "name": "If Guided Detection Engineering Process",
+      "disabled": false,
+      "parentId": "aSI6pJ9uyGmXgmwpz",
+      "conditionType": "Equals",
+      "evalType": "And",
+      "conditions": [
+        {
+          "id": "aum0w",
+          "conditionType": "Equals",
+          "fieldId": "a9gfp",
+          "referenceFieldConjunction": 0,
+          "value": "656de5bbf484b15b55ca878f",
+          "isCaseSensitive": true
+        }
+      ],
+      "actions": [
+        {
+          "layoutActions": {
+            "656de6241ee8eeb9e9621f4a": "Show",
+            "656de630ddcc346bd1e99a05": "Show",
+            "656de558aa924935c240c72c": "Hide",
+            "659b1bc5888af685d4eaf98e": "Show",
+            "66c8b25b828a5e02c6ab6ee2": "Show",
+            "66b9bef73ee744ebb14dfca9": "Show",
+            "66c35baef746fe187dfac38f": "Show"
+          },
+          "actionType": "ShowHide",
+          "parentId": "656df5d81093df553ee1e66d",
+          "id": "656df5e7f78676da957c0f44",
+          "name": "Display Guided Detection Engineering Process Section",
+          "disabled": false
+        }
+      ],
+      "repeats": [],
+      "stages": []
+    },
+    {
+      "id": "656df5f8901fe7fbf0cfefe9",
+      "name": "If Manual Detection Entry",
+      "disabled": false,
+      "parentId": "aSI6pJ9uyGmXgmwpz",
+      "conditionType": "Equals",
+      "evalType": "And",
+      "conditions": [
+        {
+          "id": "axo6w",
+          "conditionType": "Equals",
+          "fieldId": "a9gfp",
+          "referenceFieldConjunction": 0,
+          "value": "656de5ca516b71a001ba3476",
+          "isCaseSensitive": true
+        }
+      ],
+      "actions": [
+        {
+          "layoutActions": {
+            "656de630ddcc346bd1e99a05": "Show",
+            "656de558aa924935c240c72c": "Hide",
+            "659b1bc5888af685d4eaf98e": "Show",
+            "66c8b25b828a5e02c6ab6ee2": "Show",
+            "66b9bef73ee744ebb14dfca9": "Show",
+            "66c35baef746fe187dfac38f": "Hide"
+          },
+          "actionType": "ShowHide",
+          "parentId": "656df5f8901fe7fbf0cfefe9",
+          "id": "656df605560046c9b7b97b65",
+          "name": "Display Detection Library Section",
+          "disabled": false
+        }
+      ],
+      "repeats": [],
+      "stages": []
+    },
+    {
+      "id": "66c5f592c899ef880cfb3422",
+      "name": "If Requires Attention",
+      "disabled": false,
+      "parentId": "aSI6pJ9uyGmXgmwpz",
+      "conditionType": "Equals",
+      "evalType": "And",
+      "conditions": [
+        {
+          "id": "anmvk",
+          "conditionType": "Equals",
+          "fieldId": "amwkw",
+          "referenceFieldConjunction": 0,
+          "value": [
+            "6571a37b608c0a7796d59744"
+          ],
+          "isCaseSensitive": true
+        }
+      ],
+      "actions": [
+        {
+          "layoutActions": {
+            "66b6b1f24c9083d031289ba6": "Show"
+          },
+          "actionType": "ShowHide",
+          "parentId": "66c5f592c899ef880cfb3422",
+          "id": "66c5f5a9c93a931b1090fe3f",
+          "name": "Show Requires Attention Widget",
+          "disabled": false
+        }
+      ],
+      "repeats": [],
+      "stages": []
+    },
+    {
+      "id": "66c8b312f089068793dfa725",
+      "name": "If Require Attention False",
+      "disabled": false,
+      "parentId": "aSI6pJ9uyGmXgmwpz",
+      "conditionType": "Equals",
+      "evalType": "And",
+      "conditions": [
+        {
+          "id": "a3qnn",
+          "conditionType": "DoesNotEqual",
+          "fieldId": "amwkw",
+          "referenceFieldConjunction": 0,
+          "value": [
+            "6571a37b608c0a7796d59744"
+          ],
+          "isCaseSensitive": true
+        }
+      ],
+      "actions": [
+        {
+          "layoutActions": {
+            "66b6b1f24c9083d031289ba6": "Hide"
+          },
+          "actionType": "ShowHide",
+          "parentId": "66c8b312f089068793dfa725",
+          "id": "66c8b32a4604bed00e836a80",
+          "name": "Hide Required Attention Banner",
+          "disabled": false
+        }
+      ],
+      "repeats": [],
+      "stages": []
+    },
+    {
+      "id": "66c8b3ff277de4a28382ea16",
+      "name": "If Show Initial Dialog True",
+      "disabled": false,
+      "parentId": "aSI6pJ9uyGmXgmwpz",
+      "conditionType": "Equals",
+      "evalType": "And",
+      "conditions": [
+        {
+          "id": "a5tyx",
+          "conditionType": "Equals",
+          "fieldId": "a4arf",
+          "referenceFieldConjunction": 0,
+          "value": [
+            "66c8b3ee503c61fd74be805c"
+          ],
+          "isCaseSensitive": true
+        }
+      ],
+      "actions": [
+        {
+          "layoutActions": {
+            "656de558aa924935c240c72c": "Show"
+          },
+          "actionType": "ShowHide",
+          "parentId": "66c8b3ff277de4a28382ea16",
+          "id": "66c8b4132309e6168076322e",
+          "name": "Show Initial Dialog",
+          "disabled": false
+        }
+      ],
+      "repeats": [],
+      "stages": []
+    }
+  ],
+  "createdDate": "2024-09-27T20:32:47.281Z",
+  "modifiedDate": "2024-09-27T22:00:40.789Z",
+  "uid": "aFBHQ2mvf4tcX6Iqo",
+  "version": 2840,
+  "id": "aSI6pJ9uyGmXgmwpz",
+  "disabled": false
+}
