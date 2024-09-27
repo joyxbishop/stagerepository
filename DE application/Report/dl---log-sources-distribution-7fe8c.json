@@ -1,0 +1,126 @@
+{
+  "groupBys": [
+    {
+      "fieldId": "aey5h",
+      "groupByType": "GroupBy"
+    }
+  ],
+  "aggregates": [
+    {
+      "fieldId": "aey5h",
+      "aggregateType": "Count"
+    }
+  ],
+  "applicationIds": [
+    "aZZteMOgyvD6gSnhp"
+  ],
+  "columns": [
+    "amwkw",
+    "a7yz6",
+    "akxma",
+    "axb9g",
+    "akjtf",
+    "aey5h",
+    "a4y0e",
+    "a7fm2"
+  ],
+  "sorts": {},
+  "filters": [],
+  "countByApplicationFacet": false,
+  "pageSize": 10,
+  "offset": 0,
+  "defaultSearchReport": false,
+  "createdDate": "2024-09-27T20:32:47.737Z",
+  "modifiedDate": "2024-09-27T20:32:47.737Z",
+  "chartOptions": {
+    "colorScheme": "swimlane",
+    "showLegend": true,
+    "legendPosition": 0,
+    "chartType": "VerticalBar",
+    "showLabels": true,
+    "showXAxis": true,
+    "showXAxisLabel": false,
+    "xAxisLabelText": "",
+    "showYAxis": true,
+    "showYAxisLabel": false,
+    "yAxisLabelText": "",
+    "gradient": true,
+    "zoom": false,
+    "autoScale": false,
+    "explodeSlices": false,
+    "transparentBackground": false,
+    "sort": {
+      "directionD0": "LabelAscending",
+      "entriesD0": [
+        {
+          "name": "Cloud Audit"
+        },
+        {
+          "name": "Endpoint System"
+        },
+        {
+          "name": "Host Firewall"
+        },
+        {
+          "name": "Network Firewall"
+        },
+        {
+          "name": "Web Application Firewall"
+        }
+      ],
+      "directionD1": "LabelAscending"
+    },
+    "colorMap": [
+      {
+        "name": "cloud audit",
+        "value": "#adfffb",
+        "isInternal": false
+      },
+      {
+        "name": "endpoint system",
+        "value": "#72819f",
+        "isInternal": false
+      },
+      {
+        "name": "host firewall",
+        "value": "#028acf",
+        "isInternal": false
+      },
+      {
+        "name": "network firewall",
+        "value": "#27afa2",
+        "isInternal": false
+      },
+      {
+        "name": "web application firewall",
+        "value": "#cdd2dd",
+        "isInternal": false
+      }
+    ],
+    "showOtherGroup": true,
+    "curveType": "Linear",
+    "showAxis": true,
+    "min": 0,
+    "max": 100,
+    "minRadius": 5,
+    "maxRadius": 50,
+    "units": "Total",
+    "bigSegments": 10,
+    "smallSegments": 5,
+    "angleSpan": 240,
+    "startAngle": -120,
+    "value": 0,
+    "code": "",
+    "wrapTicks": true,
+    "maxXAxisTickLength": 16,
+    "maxYAxisTickLength": 16
+  },
+  "statsDrillin": false,
+  "filterType": "And",
+  "colorCoding": [],
+  "uid": "dl---log-sources-distribution-7fe8c",
+  "version": 126,
+  "id": "aXMG84zH5wbaomcn2",
+  "name": "DL - Log Sources Distribution",
+  "disabled": false
+}
