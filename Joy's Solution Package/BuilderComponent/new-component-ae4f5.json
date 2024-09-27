@@ -1,0 +1,14 @@
+{
+  "createdDate": "2024-09-27T20:32:47.516Z",
+  "modifiedDate": "2024-09-27T20:32:47.516Z",
+  "playbookId": "66f7166e6a773d1fddc68ae2",
+  "isMarketplace": false,
+  "needUpdate": false,
+  "description": "Solution: Detection Engineering\n\nTriggered when \u0027Req Review\u0027 toggle is turned on. It\u0027s responsible for fetching the Detection Library record if the alert is already registed in the Detection Library application.  If no record is found, this will be represented in the Case and Incident Management record.",
+  "referencedComponents": [],
+  "uid": "new-component-ae4f5",
+  "version": 73,
+  "id": "aYd2iWwMtLobb1I13",
+  "name": "DE - Fetch Detection Feedback Reference ID",
+  "disabled": false
+}

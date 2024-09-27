@@ -1,0 +1,50 @@
+{
+  "acronym": "AS",
+  "trackingFieldId": "66f5a32d53508f575b47ac96",
+  "layout": [
+    {
+      "fieldId": "a63p7",
+      "helpTextType": "None",
+      "helpText": " ",
+      "layoutType": "Field",
+      "id": "66f5a3314f0319fa208d6da4",
+      "row": 1,
+      "col": 1,
+      "sizex": 4,
+      "sizey": 0
+    }
+  ],
+  "fields": [
+    {
+      "maxSize": 100000,
+      "id": "a63p7",
+      "name": "Attachment",
+      "key": "attachment",
+      "fieldType": "Attachment",
+      "required": false,
+      "readOnly": false,
+      "supportsMultipleOutputMappings": false
+    },
+    {
+      "prefix": "AS-",
+      "id": "66f5a32d53508f575b47ac96",
+      "name": "Tracking Id",
+      "key": "tracking-id",
+      "fieldType": "Tracking",
+      "readOnly": true,
+      "supportsMultipleOutputMappings": false
+    }
+  ],
+  "maxTrackingId": 0,
+  "workspaces": [],
+  "createWorkspace": false,
+  "createdDate": "2024-09-26T18:08:45.697Z",
+  "modifiedDate": "2024-09-26T18:08:51.714Z",
+  "timeTrackingEnabled": false,
+  "selectionFields": {},
+  "uid": "assignedbugtest-4232d",
+  "version": 2,
+  "id": "aXftIlnoGOzdLMzvM",
+  "name": "assignedbugtest",
+  "disabled": false
+}

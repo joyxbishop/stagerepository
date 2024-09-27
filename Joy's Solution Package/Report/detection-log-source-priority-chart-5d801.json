@@ -1,0 +1,149 @@
+{
+  "groupBys": [
+    {
+      "fieldId": "aey5h",
+      "groupByType": "GroupBy"
+    },
+    {
+      "fieldId": "akxma",
+      "groupByType": "GroupBy"
+    }
+  ],
+  "aggregates": [
+    {
+      "fieldId": "656de54093500afdfc852b13",
+      "aggregateType": "Count"
+    }
+  ],
+  "applicationIds": [
+    "aZZteMOgyvD6gSnhp"
+  ],
+  "columns": [
+    "656de54093500afdfc852b13",
+    "amwkw",
+    "a7yz6",
+    "akxma",
+    "axb9g",
+    "akjtf",
+    "aey5h",
+    "a4y0e"
+  ],
+  "sorts": {},
+  "filters": [
+    {
+      "fieldId": "a7yz6",
+      "filterType": "DoesNotEqual",
+      "filterOperationType": 0,
+      "drillin": false
+    }
+  ],
+  "countByApplicationFacet": false,
+  "pageSize": 10,
+  "offset": 0,
+  "defaultSearchReport": false,
+  "createdDate": "2024-09-27T20:32:47.523Z",
+  "modifiedDate": "2024-09-27T20:32:47.523Z",
+  "chartOptions": {
+    "colorScheme": "swimlane",
+    "showLegend": true,
+    "legendPosition": 0,
+    "chartType": "VerticalBar",
+    "showLabels": true,
+    "showXAxis": true,
+    "showXAxisLabel": false,
+    "xAxisLabelText": "",
+    "showYAxis": true,
+    "showYAxisLabel": false,
+    "yAxisLabelText": "",
+    "gradient": true,
+    "zoom": false,
+    "autoScale": false,
+    "explodeSlices": false,
+    "transparentBackground": false,
+    "sort": {
+      "directionD0": "LabelAscending",
+      "entriesD0": [
+        {
+          "name": "Endpoint System"
+        },
+        {
+          "name": "Web Application Firewall"
+        },
+        {
+          "name": "Cloud Audit"
+        },
+        {
+          "name": "Network Firewall"
+        },
+        {
+          "name": "Host Firewall"
+        },
+        {
+          "name": "Email Gateway"
+        }
+      ],
+      "directionD1": "Custom",
+      "entriesD1": [
+        {
+          "name": "Critical"
+        },
+        {
+          "name": "High"
+        },
+        {
+          "name": "Medium"
+        },
+        {
+          "name": "Low"
+        }
+      ]
+    },
+    "colorMap": [
+      {
+        "name": "critical",
+        "value": "#adfffb",
+        "isInternal": false
+      },
+      {
+        "name": "high",
+        "value": "#72819f",
+        "isInternal": false
+      },
+      {
+        "name": "medium",
+        "value": "#27afa2",
+        "isInternal": false
+      },
+      {
+        "name": "low",
+        "value": "#028acf",
+        "isInternal": false
+      }
+    ],
+    "showOtherGroup": true,
+    "curveType": "Linear",
+    "showAxis": true,
+    "min": 0,
+    "max": 100,
+    "minRadius": 5,
+    "maxRadius": 50,
+    "units": "Total",
+    "bigSegments": 10,
+    "smallSegments": 5,
+    "angleSpan": 240,
+    "startAngle": -120,
+    "value": 0,
+    "code": "",
+    "wrapTicks": true,
+    "maxXAxisTickLength": 16,
+    "maxYAxisTickLength": 16
+  },
+  "statsDrillin": false,
+  "filterType": "And",
+  "colorCoding": [],
+  "uid": "detection-log-source-priority-chart-5d801",
+  "version": 88,
+  "id": "aV8dcoYsDx_3x5RsG",
+  "name": "Detection Log Source Priority Chart",
+  "disabled": false
+}

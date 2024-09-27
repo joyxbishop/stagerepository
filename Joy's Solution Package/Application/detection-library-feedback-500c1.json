@@ -1,0 +1,188 @@
+{
+  "description": "As a part of the Detection Engineering solution, this application holds unique threads of analyst feedback and detection engineer\u0027s comments between a Case and Incident Management record and a Detection Library record.",
+  "acronym": "DLF",
+  "trackingFieldId": "aGq0UxK1_da8izZPK",
+  "layout": [
+    {
+      "name": "Analyst Section",
+      "children": [
+        {
+          "fieldId": "aHmrQmnM5BzeoQ455",
+          "helpTextType": "None",
+          "helpText": " ",
+          "layoutType": "Field",
+          "id": "aGC7CjLUbvz8KMEHp",
+          "parentId": "aGW3rKqGImme1AOr4",
+          "row": 1,
+          "col": 1,
+          "sizex": 4,
+          "sizey": 0
+        },
+        {
+          "fieldId": "aIPki_luTuafC2PCb",
+          "helpTextType": "None",
+          "helpText": " ",
+          "layoutType": "Field",
+          "id": "aFtAZ6riv4AddY3jZ",
+          "parentId": "aGW3rKqGImme1AOr4",
+          "row": 1,
+          "col": 2,
+          "sizex": 1.5,
+          "sizey": 0
+        }
+      ],
+      "helpTextType": "None",
+      "helpText": " ",
+      "collapsed": false,
+      "containerHidden": false,
+      "layoutType": "Section",
+      "id": "aGW3rKqGImme1AOr4",
+      "row": 1,
+      "col": 1,
+      "sizex": 2,
+      "sizey": 0
+    },
+    {
+      "name": "Detection Engineers Section",
+      "children": [
+        {
+          "fieldId": "aH8y8YoohUNePnjya",
+          "helpTextType": "None",
+          "helpText": " ",
+          "layoutType": "Field",
+          "id": "aFFHGttAWMZdEvjc3",
+          "parentId": "aFZDvVMxDDN7wjuAJ",
+          "row": 1,
+          "col": 1,
+          "sizex": 4,
+          "sizey": 0
+        },
+        {
+          "fieldId": "aHSunAIaOLB96buWq",
+          "helpTextType": "None",
+          "helpText": " ",
+          "layoutType": "Field",
+          "id": "aEwKdHOOpVm7Y6Z2o",
+          "parentId": "aFZDvVMxDDN7wjuAJ",
+          "row": 1,
+          "col": 2,
+          "sizex": 1.5,
+          "sizey": 0
+        }
+      ],
+      "helpTextType": "None",
+      "helpText": " ",
+      "collapsed": false,
+      "containerHidden": false,
+      "layoutType": "Section",
+      "id": "aFZDvVMxDDN7wjuAJ",
+      "row": 1,
+      "col": 3,
+      "sizex": 2,
+      "sizey": 0
+    }
+  ],
+  "fields": [
+    {
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "",
+      "inputType": "Rich",
+      "lengthType": "None",
+      "unique": false,
+      "writeOnce": false,
+      "visualize": false,
+      "visualizeMode": 0,
+      "id": "aIPki_luTuafC2PCb",
+      "name": "Analyst Feedback",
+      "key": "analyst-feedback",
+      "fieldType": "Text",
+      "required": false,
+      "readOnly": true,
+      "supportsMultipleOutputMappings": false
+    },
+    {
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "",
+      "inputType": "Text",
+      "lengthType": "None",
+      "unique": false,
+      "writeOnce": false,
+      "visualize": false,
+      "visualizeMode": 0,
+      "id": "aI5o4OH7n2n9VEEeL",
+      "name": "CIM ID",
+      "key": "cim-id",
+      "fieldType": "Text",
+      "required": false,
+      "readOnly": false,
+      "supportsMultipleOutputMappings": false
+    },
+    {
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "",
+      "inputType": "Rich",
+      "lengthType": "None",
+      "unique": false,
+      "writeOnce": false,
+      "visualize": false,
+      "visualizeMode": 0,
+      "id": "aHmrQmnM5BzeoQ455",
+      "name": "CIM Tracking ID",
+      "key": "cim-tracking-id",
+      "fieldType": "Text",
+      "required": false,
+      "readOnly": true,
+      "supportsMultipleOutputMappings": false
+    },
+    {
+      "id": "aHSunAIaOLB96buWq",
+      "name": "Comments",
+      "key": "comments",
+      "fieldType": "Comments",
+      "required": false,
+      "readOnly": false,
+      "supportsMultipleOutputMappings": false
+    },
+    {
+      "targetId": "aZZteMOgyvD6gSnhp",
+      "columns": [
+        "656de54093500afdfc852b13"
+      ],
+      "controlType": "Select",
+      "selectionType": "Single",
+      "canAdd": true,
+      "createBackreference": false,
+      "id": "aH8y8YoohUNePnjya",
+      "name": "DL Tracking ID",
+      "key": "dl-tracking-id",
+      "fieldType": "Reference",
+      "required": false,
+      "readOnly": false,
+      "supportsMultipleOutputMappings": false
+    },
+    {
+      "prefix": "DLF-",
+      "id": "aGq0UxK1_da8izZPK",
+      "name": "Tracking Id",
+      "key": "tracking-id",
+      "fieldType": "Tracking",
+      "readOnly": true,
+      "supportsMultipleOutputMappings": false
+    }
+  ],
+  "maxTrackingId": 0,
+  "workspaces": [],
+  "createWorkspace": false,
+  "createdDate": "2024-09-27T20:32:47.33Z",
+  "modifiedDate": "2024-09-27T20:32:47.33Z",
+  "timeTrackingEnabled": false,
+  "selectionFields": {},
+  "uid": "detection-library-feedback-500c1",
+  "version": 40,
+  "id": "aZFw_kuvH3Pbzed8Z",
+  "name": "Detection Library Feedback",
+  "disabled": false
+}

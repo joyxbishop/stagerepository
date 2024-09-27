@@ -1,0 +1,77 @@
+{
+  "acronym": "JA",
+  "layout": [
+    {
+      "fieldId": "ath4y",
+      "helpTextType": "None",
+      "helpText": " ",
+      "layoutType": "Field",
+      "id": "66f5a3c4e81b1f81232aa66c",
+      "row": 1,
+      "col": 1,
+      "sizex": 4,
+      "sizey": 0
+    },
+    {
+      "fieldId": "acam4",
+      "helpTextType": "None",
+      "helpText": " ",
+      "layoutType": "Field",
+      "id": "66f5a3c5807bf5ca0e6813f2",
+      "row": 1,
+      "col": 2,
+      "sizex": 4,
+      "sizey": 0
+    }
+  ],
+  "fields": [
+    {
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "",
+      "inputType": "Text",
+      "lengthType": "None",
+      "unique": false,
+      "writeOnce": false,
+      "visualize": false,
+      "visualizeMode": 0,
+      "id": "ath4y",
+      "name": "Text",
+      "key": "text",
+      "fieldType": "Text",
+      "required": false,
+      "readOnly": false,
+      "supportsMultipleOutputMappings": false
+    },
+    {
+      "step": 1,
+      "unique": false,
+      "prefix": "",
+      "suffix": "",
+      "format": "None",
+      "id": "acam4",
+      "name": "Numeric",
+      "key": "numeric",
+      "fieldType": "Numeric",
+      "required": false,
+      "readOnly": false,
+      "supportsMultipleOutputMappings": false
+    }
+  ],
+  "workflow": {
+    "stages": [],
+    "createdDate": "0001-01-01T00:00:00Z",
+    "modifiedDate": "0001-01-01T00:00:00Z",
+    "uid": "aZ2A32adgZaXLWHpg",
+    "version": 1,
+    "id": "66f5a3ba55d047e8d67e525a",
+    "disabled": false
+  },
+  "createdDate": "2024-09-26T18:11:13.154Z",
+  "modifiedDate": "2024-09-26T18:16:42.922Z",
+  "uid": "joy-s-applet-01f06",
+  "version": 5,
+  "id": "aZg3LGZB4HBXk8cxB",
+  "name": "Joy\u0027s Applet",
+  "disabled": false
+}

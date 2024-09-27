@@ -1,0 +1,139 @@
+{
+  "groupBys": [
+    {
+      "fieldId": "axb9g",
+      "groupByType": "GroupBy"
+    }
+  ],
+  "aggregates": [
+    {
+      "fieldId": "axb9g",
+      "aggregateType": "Count"
+    }
+  ],
+  "applicationIds": [
+    "aZZteMOgyvD6gSnhp"
+  ],
+  "columns": [
+    "amwkw",
+    "a7yz6",
+    "akxma",
+    "axb9g",
+    "akjtf",
+    "aey5h",
+    "a4y0e",
+    "a7fm2"
+  ],
+  "sorts": {},
+  "filters": [],
+  "countByApplicationFacet": false,
+  "pageSize": 10,
+  "offset": 0,
+  "defaultSearchReport": false,
+  "createdDate": "2024-09-27T20:32:47.678Z",
+  "modifiedDate": "2024-09-27T20:32:47.678Z",
+  "chartOptions": {
+    "colorScheme": "swimlane",
+    "showLegend": true,
+    "legendPosition": 0,
+    "chartType": "Number",
+    "showLabels": true,
+    "showXAxis": true,
+    "showXAxisLabel": false,
+    "xAxisLabelText": "",
+    "showYAxis": true,
+    "showYAxisLabel": false,
+    "yAxisLabelText": "",
+    "gradient": true,
+    "zoom": false,
+    "autoScale": false,
+    "explodeSlices": false,
+    "transparentBackground": false,
+    "sort": {
+      "directionD0": "Custom",
+      "entriesD0": [
+        {
+          "name": "Backlog"
+        },
+        {
+          "name": "Scoping"
+        },
+        {
+          "name": "Designing"
+        },
+        {
+          "name": "Building"
+        },
+        {
+          "name": "Staging"
+        },
+        {
+          "name": "Production"
+        }
+      ],
+      "directionD1": "LabelAscending",
+      "entriesD1": [
+        {
+          "name": "SIEM"
+        }
+      ]
+    },
+    "colorMap": [
+      {
+        "name": "backlog",
+        "value": "#028acf",
+        "isInternal": false
+      },
+      {
+        "name": "scoping",
+        "value": "#27afa2",
+        "isInternal": false
+      },
+      {
+        "name": "designing",
+        "value": "#00fff4",
+        "isInternal": false
+      },
+      {
+        "name": "building",
+        "value": "#cdd2dd",
+        "isInternal": false
+      },
+      {
+        "name": "staging",
+        "value": "#72819f",
+        "isInternal": false
+      },
+      {
+        "name": "production",
+        "value": "#adfffb",
+        "isInternal": false
+      }
+    ],
+    "showOtherGroup": false,
+    "curveType": "Linear",
+    "showAxis": true,
+    "min": 0,
+    "max": 100,
+    "minRadius": 5,
+    "maxRadius": 50,
+    "units": "Total",
+    "bigSegments": 10,
+    "smallSegments": 5,
+    "angleSpan": 240,
+    "startAngle": -120,
+    "value": 0,
+    "code": "",
+    "wrapTicks": true,
+    "maxXAxisTickLength": 16,
+    "maxYAxisTickLength": 16
+  },
+  "statsDrillin": false,
+  "filterType": "And",
+  "colorCoding": [],
+  "uid": "dl---detection-status-f62d2",
+  "version": 126,
+  "id": "aSw06X8SLzNY4PGxU",
+  "name": "DL - Detection Status",
+  "disabled": false
+}
