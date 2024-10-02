@@ -1,0 +1,100 @@
+{
+  "acronym": "JA2",
+  "trackingFieldId": "66fda578f17a0738c45976eb",
+  "layout": [
+    {
+      "name": "Section",
+      "children": [
+        {
+          "fieldId": "a69fr",
+          "helpTextType": "None",
+          "helpText": " ",
+          "layoutType": "Field",
+          "id": "66fda57f283f015e9b4161e6",
+          "parentId": "66fda57d887ea72754ffe4cd",
+          "row": 1,
+          "col": 1,
+          "sizex": 4,
+          "sizey": 0
+        },
+        {
+          "fieldId": "ar04y",
+          "helpTextType": "None",
+          "helpText": " ",
+          "layoutType": "Field",
+          "id": "66fda581f70619c86ecd25aa",
+          "parentId": "66fda57d887ea72754ffe4cd",
+          "row": 1,
+          "col": 2,
+          "sizex": 4,
+          "sizey": 0
+        }
+      ],
+      "helpTextType": "None",
+      "helpText": " ",
+      "collapsed": false,
+      "containerHidden": false,
+      "layoutType": "Section",
+      "id": "66fda57d887ea72754ffe4cd",
+      "row": 1,
+      "col": 1,
+      "sizex": 1,
+      "sizey": 0
+    }
+  ],
+  "fields": [
+    {
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "",
+      "inputType": "Text",
+      "lengthType": "None",
+      "unique": false,
+      "writeOnce": false,
+      "visualize": false,
+      "visualizeMode": 0,
+      "id": "a69fr",
+      "name": "Text",
+      "key": "text",
+      "fieldType": "Text",
+      "required": false,
+      "readOnly": false,
+      "supportsMultipleOutputMappings": false
+    },
+    {
+      "step": 1,
+      "unique": false,
+      "prefix": "",
+      "suffix": "",
+      "format": "None",
+      "id": "ar04y",
+      "name": "Numeric",
+      "key": "numeric",
+      "fieldType": "Numeric",
+      "required": false,
+      "readOnly": false,
+      "supportsMultipleOutputMappings": false
+    },
+    {
+      "prefix": "JA2-",
+      "id": "66fda578f17a0738c45976eb",
+      "name": "Tracking Id",
+      "key": "tracking-id",
+      "fieldType": "Tracking",
+      "readOnly": true,
+      "supportsMultipleOutputMappings": false
+    }
+  ],
+  "maxTrackingId": 0,
+  "workspaces": [],
+  "createWorkspace": false,
+  "createdDate": "2024-10-02T19:56:40.035Z",
+  "modifiedDate": "2024-10-02T19:57:04.958Z",
+  "timeTrackingEnabled": false,
+  "selectionFields": {},
+  "uid": "joy-s-application-2-fa481",
+  "version": 2,
+  "id": "a6pcEDpgZE3AzVhhT",
+  "name": "Joy\u0027s application 2",
+  "disabled": false
+}
