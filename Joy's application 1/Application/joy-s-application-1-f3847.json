@@ -40,62 +40,9 @@
       "col": 1,
       "sizex": 1,
       "sizey": 0
-    },
-    {
-      "name": "Section",
-      "children": [
-        {
-          "fieldId": "a3i3g",
-          "helpTextType": "None",
-          "helpText": " ",
-          "layoutType": "Field",
-          "id": "66fda1e5efd888f023bf813b",
-          "parentId": "66fda1e27643bebd3d162686",
-          "row": 1,
-          "col": 1,
-          "sizex": 4,
-          "sizey": 0
-        },
-        {
-          "fieldId": "a32d1",
-          "helpTextType": "None",
-          "helpText": " ",
-          "layoutType": "Field",
-          "id": "66fda1e719d0ba81838befa2",
-          "parentId": "66fda1e27643bebd3d162686",
-          "row": 1,
-          "col": 2,
-          "sizex": 4,
-          "sizey": 0
-        }
-      ],
-      "helpTextType": "None",
-      "helpText": " ",
-      "collapsed": false,
-      "containerHidden": false,
-      "layoutType": "Section",
-      "id": "66fda1e27643bebd3d162686",
-      "row": 2,
-      "col": 1,
-      "sizex": 1,
-      "sizey": 0
     }
   ],
   "fields": [
-    {
-      "step": 1,
-      "unique": false,
-      "prefix": "",
-      "suffix": "",
-      "format": "None",
-      "id": "ab9co",
-      "name": "Numeric",
-      "key": "numeric",
-      "fieldType": "Numeric",
-      "required": false,
-      "readOnly": false,
-      "supportsMultipleOutputMappings": false
-    },
     {
       "prefix": "",
       "suffix": "",
@@ -115,32 +62,14 @@
       "supportsMultipleOutputMappings": false
     },
     {
-      "prefix": "",
-      "suffix": "",
-      "placeholder": "",
-      "inputType": "Text",
-      "lengthType": "None",
-      "unique": false,
-      "writeOnce": false,
-      "visualize": false,
-      "visualizeMode": 0,
-      "id": "a3i3g",
-      "name": "Text (2)",
-      "key": "text-2",
-      "fieldType": "Text",
-      "required": false,
-      "readOnly": false,
-      "supportsMultipleOutputMappings": false
-    },
-    {
       "step": 1,
       "unique": false,
       "prefix": "",
       "suffix": "",
       "format": "None",
-      "id": "a32d1",
-      "name": "Numeric (2)",
-      "key": "numeric-2",
+      "id": "ab9co",
+      "name": "Numeric",
+      "key": "numeric",
       "fieldType": "Numeric",
       "required": false,
       "readOnly": false,
@@ -160,11 +89,11 @@
   "workspaces": [],
   "createWorkspace": false,
   "createdDate": "2024-10-02T19:39:49.081Z",
-  "modifiedDate": "2024-10-02T19:41:36.25Z",
+  "modifiedDate": "2024-10-02T19:40:01.507Z",
   "timeTrackingEnabled": false,
   "selectionFields": {},
   "uid": "joy-s-application-1-f3847",
-  "version": 3,
+  "version": 2,
   "id": "aOSbtdJ_0aB9Hy6ZC",
   "name": "Joy\u0027s Application 1",
   "disabled": false
